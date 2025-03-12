@@ -169,3 +169,52 @@ h3 {
   color: #333; /* Red color */
   text-shadow: 1px 1px 1px #ffffff;
 }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 1px solid #222;
+  margin-top: 5rem;
+}
+
+.logo-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 2rem;
+}
+
+.logo-address img {
+  height: 50%;
+  width: auto;
+}
+
+address {
+  text-decoration: none;
+  font-family: "Vazirmatn";
+  font-size: 1.6rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: "Vazirmatn";
+}
+
+.footer a:link,
+.footer a:visited {
+  color: #222;
+}
+
+.footer a:hover,
+.footer a:active {
+  color: #666;
+}
