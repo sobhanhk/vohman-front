@@ -116,11 +116,13 @@ h3 {
   gap: 5px;
   justify-items: center;
   align-items: center;
+  border: 2px solid red;
+  height: auto;
 }
 
 .product img {
-  width: 200px;
-  height: auto;
+  width: auto;
+  height: 10rem;
 }
 
 .swiper-button {
