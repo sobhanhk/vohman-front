@@ -1,3 +1,7 @@
+/* ------------------------------------ */
+/* ----------- Globals --------------- */
+/* ---------------------------------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +24,7 @@ h3 {
 
 /* ------------------------------------ */
 /* ----------- Classes --------------- */
+/* ---------------------------------- */
 
 .header {
   display: grid;
@@ -109,42 +114,38 @@ h3 {
 
 .product-container {
   margin: 1rem 2rem;
-  padding: 2rem;
+  padding: 2.5rem;
   border: 1px solid #555;
   border-radius: 10px;
 }
 
 .swiper {
-  width: auto;
-  height: 300px;
+  /* width: auto; */
+  height: auto;
 }
 
-.slide--1 {
-  width: 200px;
-  background-color: #222;
-}
-
-.slide--2 {
-  background-color: aqua;
-}
-
-.swiper-slide {
-  width: 50px;
-}
-
-.product {
+.product a {
   display: flex;
   flex-direction: column;
   gap: 5px;
   justify-items: center;
   align-items: center;
-  border: 2px solid red;
-  height: auto;
+  text-align: center;
+  text-decoration: none;
+  color: #222;
+  border: 2px solid #222;
+  border-radius: 2rem;
+  height: 33rem;
+  overflow: hidden;
+}
+
+.product a p:last-child {
+  margin-bottom: 2rem;
 }
 
 .product img {
-  width: auto;
-  height: 10rem;
+  width: fit-content;
+  height: 19rem;
 }
 
 .swiper-button {
