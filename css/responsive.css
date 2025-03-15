@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   .nav {
     display: flex;
-    padding: 2rem 4rem;
+    padding: 2rem 1rem;
     justify-content: space-between;
     align-content: center;
     align-items: center;
@@ -35,7 +35,9 @@
 
   .btn-page {
     display: inline-block;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 1px;
+    font-size: 1.6px;
     border-radius: 0.5rem;
     color: #222;
     background-color: #fff;
@@ -43,5 +45,35 @@
 
   .header-shop-name {
     display: none;
+  }
+
+  .product-details {
+    grid-template-columns: 1fr;
+  }
+
+  .shop-form {
+    flex-direction: column;
+  }
+
+  .quantitiy {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .shop-form label {
+    font-size: 2rem;
+  }
+  .product-quantitiy {
+    padding: 5px;
+    font-size: 2.5rem;
+  }
+
+  .logo-address {
+    gap: 1rem;
+  }
+  .logo-address img {
+    height: 35%;
+    width: auto;
   }
 }
